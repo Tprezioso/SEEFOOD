@@ -57,14 +57,46 @@
 			isa = PBXGroup;
 			children = (
 				9F6D933621FC020E00F04E0D /* AppDelegate.swift */,
-				9F6D933821FC020E00F04E0D /* ViewController.swift */,
-				9F6D933A21FC020E00F04E0D /* Main.storyboard */,
-				9F6D933D21FC021000F04E0D /* Assets.xcassets */,
-				9F6D933F21FC021000F04E0D /* LaunchScreen.storyboard */,
+				9F6D934C21FFF46400F04E0D /* Model */,
+				9F6D934A21FFF44000F04E0D /* Controller */,
+				9F6D934B21FFF45600F04E0D /* View */,
+				9F6D934D22025B5800F04E0D /* Images */,
 				9F6D934221FC021000F04E0D /* Info.plist */,
-				9F6D934821FD1F1500F04E0D /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
+			sourceTree = "<group>";
+		};
+		9F6D934A21FFF44000F04E0D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F6D933821FC020E00F04E0D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9F6D934B21FFF45600F04E0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F6D933A21FC020E00F04E0D /* Main.storyboard */,
+				9F6D933F21FC021000F04E0D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F6D934C21FFF46400F04E0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F6D934821FD1F1500F04E0D /* Inceptionv3.mlmodel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F6D934D22025B5800F04E0D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9F6D933D21FC021000F04E0D /* Assets.xcassets */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
